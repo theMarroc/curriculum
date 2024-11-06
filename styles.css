@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    display: flex;
+    max-width: 1000px;
+    margin: 20px auto;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar {
+    width: 30%;
+    background-color: #e9ecef;
+    padding: 20px;
+    text-align: center;
+}
+
+.profile-photo {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.contact-info, .references {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.contact-info h2, .references h2 {
+    font-size: 1.2em;
+    color: #234e8e;
+    margin-bottom: 5px;
+}
+
+.contact-info ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.contact-info ul li {
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.references p {
+    margin-bottom: 10px;
+}
+
+.main-content {
+    width: 70%;
+    padding: 15px;
+}
+
+.header {
+    text-align: left;
+    border-bottom: 2px solid #234e8e;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.header h1 {
+    font-size: 2em;
+    color: #333;
+}
+
+.header p {
+    color: #666;
+}
+
+.section {
+    margin-bottom: 15px;
+}
+
+.section h2 {
+    font-size: 1.5em;
+    color: #234e8e;
+    margin-bottom: 10px;
+}
+
+.job h3 {
+    font-size: 1.2em;
+    color: #333;
+}
+
+.job p {
+    color: #666;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+ul li {
+    margin-bottom: 5px;
+}
